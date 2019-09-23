@@ -1,0 +1,105 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #c9c9c9;
+}
+.house {
+    width: 500px;
+    height: 500px;
+}
+.roof {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 250px 200px 250px;
+    border-color: transparent transparent #526aa7 transparent;
+}
+.walls {
+    height: 300px;
+    width: 500px;
+    background: #ce551e;
+}
+.window {
+    width: 150px;
+    height: 150px;
+    background: #efefef;
+}
+.door {
+    width: 100px;
+    height: 250px;
+    background: #faef4b;
+}
+.house__1 {
+    position: absolute;
+}
+.window__1 {
+    position: absolute;
+    left: 130px;
+    top: 250px;
+}
+.door__1 {
+    position: absolute;
+    left: 350px;
+    bottom: 0;
+}
+.house__2 {
+    position: relative;
+    margin-left: 550px
+}
+.window__2 {
+    position: relative;
+    left: 130px;
+    top: 50px;
+}
+.door__2 {
+    position: relative;
+    left: 350px;
+    top: -137px;
+}
+.house__3 {
+    position: static;
+    margin-top: 50px;
+}
+.walls__3 {
+    position: static;
+    padding-top: 10px;
+    height: 291px;
+}
+.window__3 {
+    position: static;
+    margin-left: 130px;
+    float: left;
+}
+.door__3 {
+    position: static;
+    margin-left: 350px;
+}
+.house__4 {
+    position: fixed;
+    top: 157px;
+    left: 550px;
+}
+.window__4 {
+    position: fixed;
+    top: 430px;
+    left: 680px;
+}
+.door__4 {
+    position: fixed;
+    top: 430px;
+    left: 900px;
+    
+}
+
+
+
+
+
+
+
+
+
+
